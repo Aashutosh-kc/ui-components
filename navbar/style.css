@@ -1,0 +1,30 @@
+body{
+    font-family: Sans-Serif;
+}
+.navbar{
+    width: 100%;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 16px 32px;
+}
+.logo{
+    flex: 0 0 150px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-right: auto;
+}
+.nav-links{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #9ca3af;
+    font-size: 0.90rem;
+}
+.nav-links a:hover{
+    color: #3b82f6;
+}
