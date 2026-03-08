@@ -1,0 +1,34 @@
+// Learning css vaiables and practicing writing clean readable code too.//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Variables Practice</title>
+  <style>
+    :root {
+      --main-color: purple;
+      --text-size: 20px;
+      --spacing: 16px;
+    }
+
+    h1 {
+      color: var(--main-color);
+      font-size: var(--text-size);
+    }
+
+    p {
+      padding: var(--spacing);
+    }
+
+    button {
+      background-color: var(--main-color);
+      color: white;
+      padding: var(--spacing);
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello CSS Variables</h1>
+  <p>This text has padding from a variable.</p>
+  <button>This button uses the same color as h1</button>
+</body>
+</html>
